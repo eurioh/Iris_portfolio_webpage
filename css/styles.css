@@ -1,0 +1,177 @@
+body{
+/*    background-color: white;
+    margin:0;
+    padding:0;    
+*/
+}
+
+h1, h2, h3, h4, h5, h6{
+/*    font-family: ;*/
+   
+}
+
+.container-fluid{
+    text-align: center;
+    padding; 3% 15%;
+}
+
+
+video{
+    margin: 0;
+    padding:0;
+    object-fit: cover;
+    background-size: cover; 
+    width: 100px;
+    height:auto;
+    position: relative;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width:100%;
+    min-height:100%;
+}
+
+/*
+#entryVideo{
+    width: 100px;
+    height:auto;
+    position: relative;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width:100%;
+    min-height:100%;
+    padding:0;
+    margin:0;    
+}
+*/
+/*
+.mx-0{
+    margin-left: 0 !important;
+}
+*/
+
+/*
+.container{
+    display:grid;
+    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+    grid-template-rows: auto;
+    grid-template-areas:
+        "hero hero hero hero hero"
+        "nav nav nav nav nav"
+        " into intro intro intro ."
+        " . main main main ."
+        "footer footer footer footer footer"; 
+    margin:0;
+    padding:0;
+}
+*/
+
+.hero-video{
+    opacity: 0.8;
+    grid-area: hero;
+    background-color: beige;
+    margin: 0;
+    padding: 0; 
+}
+
+nav{
+    background: none;  
+    display: flex;
+}
+
+
+ul{
+    justify-content: flex-end;
+}
+
+#about{
+    width: 100%;
+    text-align: left;
+/*    padding-bottom: 0%;*/
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-left: -15px;
+}
+
+.portImage{
+    float:left;
+    width: 50%;
+}
+
+
+.paragraph{
+    float:right;
+    width: 50%;
+    padding-top: 10%;
+    padding-right: 10%;
+}
+
+
+.line:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+@media(max-width:){
+    
+}
+
+
+h2{
+/*    padding: 10px;*/
+    font-weight: normal;
+    font-family: "OakesGroteskBold";
+}
+
+/*
+p{
+    margin: 25px
+    padding:auto;
+}
+*/
+
+
+.cushion{
+    background-color: antiquewhite;
+    padding: 10%;
+}
+
+.cake-img{
+    width: 35%;
+    
+}
+
+#work{
+    text-align: center;
+    grid-area: main;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+#contact{
+/*    grid-area: footer;*/
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+footer{
+/*    background-color: darkgreen;*/
+    
+}
+
+footer p{
+    text-align: center;
+    margin: 0;
+}
+
+.social-icon{
+    color: black;
+    padding: 1%;
+    
+}
